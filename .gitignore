@@ -1,0 +1,72 @@
+# Compiled Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (Windows/Mac)
+*.dll
+*.dylib
+*.so
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.mod
+*.exp
+
+# Generated files
+*.ii
+*.ti
+*.log
+*.gcda
+*.gcno
+*.gcov
+
+# Output of the coverage tool
+*.gcov
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+
+# Editor specific files
+*~ 
+.*.swp
+*.bak
+*.backup
+*.log
+*.orig
+*.rej
+
+# Folders
+__pycache__/
+.idea/
+.vscode/
+node_modules/
+build/
+dist/
+bin/

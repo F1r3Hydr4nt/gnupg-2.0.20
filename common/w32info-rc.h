@@ -23,7 +23,7 @@ either version 3 of the License, or (at your option) any later version.\0"
 #define W32INFO_VI_PRODUCTVERSION 2,0,20,4558
 
 #define W32INFO_FILEVERSION "2.0.20 (11ce4c7) \
-built on freddie-Precision-7510 at 2024-06-25T09:22+0000\0"
+built on freddie-Precision-7510 at 2024-06-25T09:25+0000\0"
 
 #define W32INFO_PRODUCTNAME    "GNU Privacy Guard (GnuPG)\0"
 #define W32INFO_PRODUCTVERSION "2.0.20\0"
