@@ -63,7 +63,7 @@ configure:3305: result: x86_64-unknown-linux-gnu
 configure:3329: autobuild project... gnupg
 configure:3331: autobuild revision... 2.0.20
 configure:3335: autobuild hostname... freddie-Precision-7510
-configure:3344: autobuild timestamp... 20240625-102454
+configure:3344: autobuild timestamp... 20240625-104326
 configure:3361: checking for style of include used by make
 configure:3389: result: GNU
 configure:3460: checking for gcc
@@ -644,7 +644,7 @@ configure: failed program was:
 configure:8087: result: no
 configure:8100: checking for usb_create_match
 configure:8100: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccSkJAsK.o: in function `main':
+/usr/bin/ld: /tmp/cceT64lC.o: in function `main':
 /home/freddie/Downloads/gnupg-2.0.20/conftest.c:69: undefined reference to `usb_create_match'
 collect2: error: ld returned 1 exit status
 configure:8100: $? = 1
@@ -884,7 +884,7 @@ configure:8571: checking for adns.h
 configure:8571: result: no
 configure:8632: checking for adns_free
 configure:8632: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccPBKh7V.o: in function `main':
+/usr/bin/ld: /tmp/ccbXLbCp.o: in function `main':
 /home/freddie/Downloads/gnupg-2.0.20/conftest.c:73: undefined reference to `adns_free'
 collect2: error: ld returned 1 exit status
 configure:8632: $? = 1
@@ -2794,7 +2794,7 @@ configure:13287: $? = 0
 configure:13287: result: yes
 configure:13293: checking for _doprnt
 configure:13293: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccdYZfeu.o: in function `main':
+/usr/bin/ld: /tmp/ccpCQWaZ.o: in function `main':
 /home/freddie/Downloads/gnupg-2.0.20/conftest.c:116: undefined reference to `_doprnt'
 collect2: error: ld returned 1 exit status
 configure:13293: $? = 1
@@ -3294,7 +3294,7 @@ configure:13531: $? = 0
 configure:13531: result: yes
 configure:13531: checking for strlwr
 configure:13531: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccjvPTps.o: in function `main':
+/usr/bin/ld: /tmp/ccN65psF.o: in function `main':
 /home/freddie/Downloads/gnupg-2.0.20/conftest.c:121: undefined reference to `strlwr'
 collect2: error: ld returned 1 exit status
 configure:13531: $? = 1
@@ -3855,7 +3855,7 @@ configure: failed program was:
 configure:13623: result: yes
 configure:13641: checking for memicmp
 configure:13641: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccaRrI8Q.o: in function `main':
+/usr/bin/ld: /tmp/ccjZMuZI.o: in function `main':
 /home/freddie/Downloads/gnupg-2.0.20/conftest.c:157: undefined reference to `memicmp'
 collect2: error: ld returned 1 exit status
 configure:13641: $? = 1
@@ -4050,7 +4050,7 @@ configure:13641: $? = 0
 configure:13641: result: yes
 configure:13641: checking for stricmp
 configure:13641: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccgC4VEN.o: in function `main':
+/usr/bin/ld: /tmp/ccm46I01.o: in function `main':
 /home/freddie/Downloads/gnupg-2.0.20/conftest.c:161: undefined reference to `stricmp'
 collect2: error: ld returned 1 exit status
 configure:13641: $? = 1
@@ -4261,7 +4261,7 @@ configure:13665: $? = 0
 configure:13665: result: yes
 configure:13665: checking for funopen
 configure:13665: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccGokZEN.o: in function `main':
+/usr/bin/ld: /tmp/cc9PnARp.o: in function `main':
 /home/freddie/Downloads/gnupg-2.0.20/conftest.c:172: undefined reference to `funopen'
 collect2: error: ld returned 1 exit status
 configure:13665: $? = 1
@@ -6838,7 +6838,7 @@ BUILD_SCDAEMON_FALSE='#'
 BUILD_SCDAEMON_TRUE=''
 BUILD_SYMCRYPTRUN_FALSE=''
 BUILD_SYMCRYPTRUN_TRUE='#'
-BUILD_TIMESTAMP='2024-06-25T09:25+0000'
+BUILD_TIMESTAMP='2024-06-25T09:43+0000'
 BUILD_TOOLS_FALSE='#'
 BUILD_TOOLS_TRUE=''
 CC='gcc'
@@ -7222,6 +7222,6 @@ target_alias=''
 #define SIZEOF_VOID_P 8
 #define HAVE_LANGINFO_THOUSANDS_SEP 1
 #define BUILD_REVISION "11ce4c7"
-#define BUILD_TIMESTAMP "2024-06-25T09:25+0000"
+#define BUILD_TIMESTAMP "2024-06-25T09:43+0000"
 
 configure: exit 0

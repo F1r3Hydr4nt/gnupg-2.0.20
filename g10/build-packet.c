@@ -983,11 +983,11 @@ string_to_notation(const char *string,int is_utf8)
   strncpy(notation->name,string,s-string);
   notation->name[s-string]='\0';
 
-  if(!saw_at && !opt.expert)
-    {
-      log_error(_("a user notation name must contain the '@' character\n"));
-      goto fail;
-    }
+  // if(!saw_at && !opt.expert)
+  //   {
+  //     log_error(_("a user notation name must contain the '@' character\n"));
+  //     goto fail;
+  //   }
 
   if (saw_at > 1)
     {
